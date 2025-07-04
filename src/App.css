@@ -1,5 +1,5 @@
 body {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .scrollbar-hide::-webkit-scrollbar {
   display: none;

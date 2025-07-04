@@ -162,7 +162,7 @@ export function AppSidebar() {
       collapsible="icon"
     >
       <hr className="border-t border-gray-800 opacity-100" />
-      <SidebarContent className="bg-[#171829]">
+      <SidebarContent className="bg-gray-50">
         <SidebarGroup>
           <SidebarGroupLabel className="my-4 mt-3 w-fit bg-[#10101c] px-4 py-1.5 text-sm text-white">
             General
@@ -181,10 +181,10 @@ export function AppSidebar() {
           </SidebarGroupContent>
         </SidebarGroup>
       </SidebarContent>
-      <SidebarFooter className="bg-[#171829]">
+      <SidebarFooter className="bg-gray-50 ">
         <SidebarMenu>
-          <SidebarMenuItem className="text-white">
-            <Settings /> Settings
+          <SidebarMenuItem className=" flex items-center gap-2">
+            <Settings className='w-4' /> <p className='text-[#9e9e9e]'>Settings</p>
           </SidebarMenuItem>
         </SidebarMenu>
       </SidebarFooter>
